@@ -121,7 +121,7 @@ ul {
 
 /* Start Header */
 .header {
-    background-color: var(--main-color-white);
+    background-color: #2b3436d7;
     position: relative;
     -webkit-box-shadow: 0 0 10px #ddd;
     -moz-box-shadow: 0 0 10px #ddd;
@@ -136,7 +136,7 @@ ul {
     position: relative;
 }
 .header .logo {
-    color: var(--main-color);
+    color: #fd4f55bd;
     font-size: 26px;
     font-weight: bold;
     height: 72px;
@@ -173,7 +173,7 @@ ul {
     align-items: center;
     height: 72px;
     position: relative;
-    color: black;
+    color: rgb(253, 247, 247);
     padding: 0 30px;
     transition: var(--main-transition);
     overflow: hidden;
@@ -199,6 +199,7 @@ ul {
 .header .main-nav  li .fa-angle-down {
     position: absolute;
     top: 28px;
+    color: rgb(255, 0, 179);
 }
 .header .main-nav > li > a:hover {
     color: var(--main-color);
